@@ -1,0 +1,17 @@
+# file = open("file_name.txt", "r")
+
+r - Opens a file for reading only. The file pointer is placed at the beginning of the file. This is the default mode.
+
+r+ - Opens a file for both reading and writing. the file pointer is places at the beginning of the file.
+
+w - Opens the file for writing only. Overwirtes the file if the file exists. If the file does not exists,
+creates a new file for writing.
+
+w+ - Opens the file for both writing and reading. Overwirtes the existing  file if the file exists. If the file does not exists,
+creates a new file for writing.
+
+a - Opens the file for appending. The file pointer is at the end of the file if the file exists. That is, the file is in the append
+mode. If the file does not exists, creates a new file for writing.
+
+a+ - Opens the file for appending and reading. The file pointer is at the end of the file if the file exists. That is, the file is in the append
+mode. If the file does not exists, creates a new file for reading and writing.
